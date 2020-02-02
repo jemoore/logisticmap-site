@@ -1,2 +1,22 @@
 * shadow-cljs-template
 A template for starting shadow-cljs projects.
+
+* Dev
+** command line
+Install js packages with
+npm install
+
+To compile and watch cljs
+npx shadow-cljs watch app
+
+** emacs 
+Install js packages with
+npm install
+
+open main.cljs in emacs
+, " : will call cider-jack-in-cljs
+cider will ask for:
+type of project: select "shadow"
+target : select ":app"
+
+will then ask to open page in browser

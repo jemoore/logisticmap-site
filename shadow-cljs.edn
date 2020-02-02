@@ -6,6 +6,7 @@
  [[reagent "0.9.1"]
   [org.clojure/core.async "0.7.559"]
   [com.taoensso/timbre "4.10.0"]
+  [cljsjs/d3 "5.12.0-0"]
   ]
 
  :dev-http {8080 "target/"}
@@ -15,7 +16,7 @@
                 :modules {:main {:init-fn main/main!}}
                 :devtools {:after-load main/reload!
                            :http-root "target"
-                           :http-port 8080}}}
+                           :http-port 8082}}}
 
 
  }
