@@ -1,0 +1,2 @@
+* shadow-cljs-template
+A template for starting shadow-cljs projects.
